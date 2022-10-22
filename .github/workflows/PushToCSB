@@ -1,3 +1,0 @@
-name: Push to Cloud Storage
-on: [push]
-jobs:
