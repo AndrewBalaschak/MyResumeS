@@ -25,6 +25,6 @@ jobs:
 
     # Example of using the output
     - id: 'uploaded-files'
-    - run: gh pr comment $PR_URL --body "Uploading files to GCP"
+      run: gh pr comment $PR_URL --body "Uploading files to GCP"
       env:
         files: '${{ steps.upload-file.outputs.uploaded }}'
