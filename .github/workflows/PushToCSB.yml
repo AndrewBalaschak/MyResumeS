@@ -21,7 +21,7 @@ jobs:
       uses: patrickwyler/gcs-bucket-sync-action@1.3
       with:
           secrets: ${{ secrets.google_service_account_credentials }}
-          bucket: 'andrewbala.com'
+          bucket: 'www.andrewbala.com'
           exclude: '.*\.md$|\.gitignore$|\.git/.*$|\.github/.*$'
 
     # Example of using the output
