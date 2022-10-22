@@ -21,7 +21,7 @@ jobs:
       with:
         path: 'index.html'
         destination: 'www.andrewbala.com'
-        parent: false
+        parent: true
 
     # Example of using the output
     - id: 'uploaded-files'
