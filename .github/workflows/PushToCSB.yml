@@ -23,6 +23,7 @@ jobs:
         destination: 'www.andrewbala.com/index.html'
         parent: false
 
+
     # Example of using the output
     - id: 'uploaded-files'
       run: gh pr comment $PR_URL --body "Uploading files to GCP"
