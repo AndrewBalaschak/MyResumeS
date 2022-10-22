@@ -25,6 +25,6 @@ jobs:
 
     # Example of using the output
     - id: 'uploaded-files'
-      uses: 'MyResumeSite@main'
+     # uses: 'MyResumeSite@main'
       env:
         files: '${{ steps.upload-file.outputs.uploaded }}'
