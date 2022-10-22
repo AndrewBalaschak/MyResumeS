@@ -16,7 +16,7 @@ jobs:
       with:
         workload_identity_provider: 'projects/372577350459/locations/global/workloadIdentityPools/updateclouds/providers/github'
         service_account: 'accesscsb@myresume1.iam.gserviceaccount.com'
-        credentials_json: '${{ secrets.gcp_credentials }}'
+        credentials_json: ${{ secrets.gcp_credentials }}
         
     - name: Sync
       uses: patrickwyler/gcs-bucket-sync-action@1.3
