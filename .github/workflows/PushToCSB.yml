@@ -5,7 +5,10 @@ jobs:
     permissions:
       contents: 'read'
       id-token: 'write'
-
+     
+     # We'll run Ubuntu for performance instead of Mac or Windows
+    runs-on: ubuntu-latest
+    
     steps:
     - id: 'auth'
       uses: 'google-github-actions/auth@v0'
