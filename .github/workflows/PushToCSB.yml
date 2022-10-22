@@ -1,7 +1,6 @@
 name: Push to Cloud Storage
 on: [push]
 jobs:
-  runs-on: ubuntu-latest
   job_id:
     permissions:
       contents: 'read'
