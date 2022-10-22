@@ -23,7 +23,7 @@ jobs:
       with:
         path: '../'
         destination: 'www.andrewbala.com'
-        parent: false
+        parent: true
           
 
     # Example of using the output
